@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+}
+
+#recipes {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 32px;
+}
+
+#recipes > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+#recipes > div > img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#recipes > div > p {
+  text-align: justify;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */
